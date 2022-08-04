@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> First Example </title>
+<script>
+	var x=5;
+	x= x+5 
+	var name = "rinki jaiswal"
+	var boolean = false
+	var number = 10
+	//elseif
+	// or operator - only one should be true
+	if(boolean == true || number >20){
+		document.write("rinki is happy")
+	}
+	//and operator both condition should be true
+	else if(boolean == false && number >= 10){
+		document.write("rinki is mad")
+	}
+	else{
+		document.write("rinki is sad");
+	}
+
+	// check if person age is above 18
+	//var age = 15
+	var age=20;
+	if(age>18){
+		alert("you can enter")
+	}
+	else{
+		alert("you are not allowed")
+	}
+
+	//nested if else
+	var shivam = "bad boy"
+	var subject = "lo"
+	//agr pehli condition shi hogi tbhi vo andr vali dusri condtioin check krega
+	if(subject == "love"){
+		document.write("subject is love")
+		if(shivam == "good boy"){
+			document.write("shivam is a good boy")
+		}else{
+			document.write("shivam is bad boy")
+		}
+	}else{
+		document.write("none");
+	}
+
+	//Q. subject = "english", marks > 50 = "pass" else fail
+	var subject="english"
+	var marks = 72
+	if(subject=="english"){
+		document.write("subject is english")
+		if(marks>50 && marks < 70){
+			document.write("pass")
+		}else if(marks>70){
+			document.write("excellent")
+		}
+		else{
+			document.write("fail")
+		}
+	}else{
+		document.write("subject in unknown")
+	}
+</script>
+</head>
+<body>
+	<h3> Welcome to home</h3>
+	
+</body> 
+
+</html>

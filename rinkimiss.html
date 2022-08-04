@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	FirstNumber: <input type="text" id="first">
+	SecondNumber: <input type="text" id="second">
+<button onclick="myFunction()">add</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("first").value;
+  var y = document.getElementById("second").value;
+  // parseInt use hota hai string ya text ko integer bnane ke lie
+  var z = parseInt(x) + parseInt(y);
+  document.getElementById("demo").innerHTML = z;
+}
+</script>
+</body>
+</html>
